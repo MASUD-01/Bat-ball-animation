@@ -1,0 +1,54 @@
+/* .field{
+    border: 2px solid red;
+   
+    background-color:#fff;
+}
+img{
+}
+
+.field:hover img{
+    transform: rotate(-40deg);
+    transform-origin:top right;    
+}
+.ball{
+    height:40px;
+    width: 40px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    position: relative;
+    left:230px;
+    bottom: 70px;
+    transition: transform 1s ease;   
+}
+.field:hover .ball{
+    transform: translate(750px, -200px);
+} */
+
+.field-area{
+    border: 2px solid red;
+}
+
+
+
+.field-area:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+
+/* .bat{
+    transition: transform .1s ;
+} */
+
+/* 2nd project */
+.bal{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: slategrey;
+    position: relative;
+    left: 295px;
+    transition: transform 1s;
+}
+.field-area:hover .bal{
+    transform: translate(700px, -300px);
+}
